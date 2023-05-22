@@ -105,7 +105,8 @@ body {
     transform: translate(-25%,-50%);
 }
 .flex{
-    margin-top:60px;
+    background-color: rgb(31, 32, 31);
+    padding: 60px 0 60px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,3 +121,6 @@ width:45%;
     width: 80%;
     height: 80%;
 }
+svg {
+    width: 100%;
+  }
