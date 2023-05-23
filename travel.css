@@ -92,7 +92,7 @@ body {
 #full {
     color: white;
     height: 100vh;
-    background-image: url(../image/bg.jpg);
+    background-image: url(bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     /* animation: animateBg 60s linear infinite; */
@@ -127,7 +127,7 @@ body {
     right: 12.5%;
     transform: translate(-12.5%, -50%);
     /* border: 1px solid #00ffff80; */
-    background: transparent url(../image/earth\ \(1\).png);
+    background: transparent url(earth\ \(1\).png);
     background-size: cover;
     box-shadow: inset 0 -20px 50px 10px #00ffff80, 0 0 30px 6px #00ffff70;
     transform-style: preserve-3d;
@@ -160,16 +160,20 @@ body {
 }
 
 .flex img {
-    margin: auto;
     width: 80%;
     height: 80%;
 }
 
 .flex p {
+    margin-top: 40px;
     color: white;
-    text-align: left;
+    text-align: left;   
 }
 
 svg {
     width: 100%;
 }
+#earth{
+}
+#flex{
+    background-image: linear-gradient(to top, #73579b, #685096, #5d4a90, #52448b, #463e86);}
