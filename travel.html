@@ -2,16 +2,16 @@
 <html lang="en">
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Country Guide App</title>
-  <!--Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
-  <!-- Stylesheet -->
-  <link rel="stylesheet" href="css/travel.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country Guide App</title>
+    <!--Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="travel.css">
 </head>
 
 <body>
-  <!-- <div class="full">
+    <!-- <div class="full">
         <div class="intro">
             <div class="h3" style="font-size: 20px;">knowing about clutures of all the countries</div>
             <div style="font-size:80px; color:white; ">Earth countries</div>
@@ -19,126 +19,163 @@
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 
         </div> -->
-  <div id="full">
-    hi
-    <div id="intro">
-      <div class="h3" style="font-size: 20px; ">knowing about clutures of all the countries</div>
-      <div style="font-size:80px; color:white; ">Earth countries</div>
-      <p style="font-size: 14px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+    <div id="full">
+        <div class="nav">
+            <ul>
+                <li><a href="#hi"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30 "
+                            fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                            <path
+                                d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z" />
+                        </svg>
+                        <div class="no">home</div>
+                    </a></li>
+                <li><a href="travel.html"  target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                            fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg>
+                        <div class="no">learn   </div>
+                    </a></li>
+                <li><a href="travel.html"><svg xmlns="http://www.w3.org/2000/svg" width="30     " height="30"
+                            fill="currentColor" class="bi bi-file-check" viewBox="0 0 16 16">
+                            <path
+                                d="M10.854 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 8.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
+                            <path
+                                d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
+                        </svg>
+                        <div class="no">view    </div>
+                    </a></li>
+
+            </ul>
+        </div>
+
+        <div id="intro">
+            <div class="h3" style="font-size: 20px; ">knowing about clutures of all the countries</div>
+            <div style="font-size:80px; color:white; ">Earth countries</div>
+            <p style="font-size: 14px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+
+        </div>
+        <div id="crc"></div>
+
+        <svg viewbox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <style type="text/css">
+                    .wave {
+                        animation: wave 8s linear infinite;
+                    }
+
+                    .wave1 {
+                        animation: wave1 10s linear infinite;
+                    }
+
+                    .wave2 {
+                        animation: wave2 12s linear infinite;
+                    }
+
+                    @keyframes wave {
+                        0% {
+                            transform: translateX(0%);
+                        }
+
+                        100% {
+                            transform: translateX(100%);
+                        }
+                    }
+
+                    @keyframes wave1 {
+                        0% {
+                            transform: scaleY(1.2) translateX(0%);
+                        }
+
+                        100% {
+                            transform: scaleY(1.2) translateX(100%);
+                        }
+                    }
+
+                    @keyframes wave2 {
+                        0% {
+                            transform: scaleY(.8) translateX(0%);
+                        }
+
+                        100% {
+                            transform: scaleY(.8) translateX(100%);
+                        }
+                    }
+                </style>
+                <path id='sineWave' fill="rgb(2, 58, 117)" fill-opacity="0.2"
+                    d="M0,160 C320,300,420,300,740,160 C1060,20,1120,20,1440,160 V0 H0" />
+            </defs>
+            <use class="wave" href="#sineWave" />
+            <use class="wave" x="-100%" href="#sineWave" />
+            <use class="wave1" href="#sineWave" />
+            <use class="wave1" x="-100%" href="#sineWave" />
+            <use class="wave2" href="#sineWave" />
+            <use class="wave2" x="-100%" href="#sineWave" />
+        </svg>
+    </div>
+    <div class="flex">
+        <div class="earth"><img src="output-onlinegiftools (4).gif"></div>
+        <div class="earth">
+            <div class="know" style="font-size: 40px;color: white;">learn more about countries</div>
+            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+                more
+                recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+            </p>
+        </div>
 
     </div>
-    <div id="crc"></div>
+    <div class="flex" id="flex">
 
-    <svg viewbox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <style type="text/css">
-          .wave {
-            animation: wave 8s linear infinite;
-          }
+        <div class="earth">
+            <div class="know" style="font-size: 40px;color: white;">learn more about countries</div>
+            <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+                more
+                recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-          .wave1 {
-            animation: wave1 10s linear infinite;
-          }
+            </p>
+        </div>
+        <div class="earth" id="earth"><img src="gif3.gif"></div>
+    </div>  
+    <div class="text">
+        <div class="hi">Some of the best views in the world</div>
+        <div class="hii">Ipsum is simply dummy text of the printing and typesetting industry.<br>
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
+    </div>
+    <div class="big">
+        
+        <div class="box">
+            <div class="view">These are some of  the best views in the world</div>
+            <span style="--i:1;" id="one">
+                <div>Alberta, Canada</div>
+            </span>
+            <span style="--i:2;" id="two">
+                <div>Huayna Picchu, Peru</div>
+            </span>
+            <span style="--i:3;" id="three">
+                <div>El Nido, Philippines</div>
+            </span>
+            <span style="--i:4;" id="four">
+                <div>County Clare, Ireland</div>
+            </span>
+            <span style="--i:5;" id="five">
+                <div>Kauai, Hawaii, the USA</div>
+            </span>
+            <span style="--i:6;" id="six">
+                <div>Tromsø, Norway </div>
+            </span>
+            <span style="--i:7;" id="seven">
+                <div>Uluru Northern Territory, Australia</div>
+            </span>
+            <span style="--i:8;" id="eight">
+                <div>Menabe, Madagascar</div>
+            </span>
 
-          .wave2 {
-            animation: wave2 12s linear infinite;
-          }
-
-          @keyframes wave {
-            0% {
-              transform: translateX(0%);
-            }
-
-            100% {
-              transform: translateX(100%);
-            }
-          }
-
-          @keyframes wave1 {
-            0% {
-              transform: scaleY(1.2) translateX(0%);
-            }
-
-            100% {
-              transform: scaleY(1.2) translateX(100%);
-            }
-          }
-
-          @keyframes wave2 {
-            0% {
-              transform: scaleY(.8) translateX(0%);
-            }
-
-            100% {
-              transform: scaleY(.8) translateX(100%);
-            }
-          }
-        </style>
-        <path id='sineWave' fill="rgb(2, 58, 117)" fill-opacity="0.2"
-          d="M0,160 C320,300,420,300,740,160 C1060,20,1120,20,1440,160 V0 H0" />
-      </defs>
-      <use class="wave" href="#sineWave" />
-      <use class="wave" x="-100%" href="#sineWave" />
-      <use class="wave1" href="#sineWave" />
-      <use class="wave1" x="-100%" href="#sineWave" />
-      <use class="wave2" href="#sineWave" />
-      <use class="wave2" x="-100%" href="#sineWave" />
-    </svg>
-  </div>
-  <div class="flex">
-    <div class="earth"><img src="image/output-onlinegiftools (4).gif"></div>
-    <div class="earth">
-      <div class="know" style="font-size: 40px;color: white;">learn more about countries</div>
-      <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
-        recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-      </p>
+        </div>
     </div>
 
-  </div>
-  <div class="flex" id="flex">
-
-    <div class="earth">
-      <div class="know" style="font-size: 40px;color: white;">learn more about countries</div>
-      <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
-        recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-      </p>
-    </div>
-    <div class="earth" id="earth"><img src="image/gif3.gif"></div>
-  </div>
-  <div class="big">
-    <div class="box">
-      <span style="--i:1;" id="one">
-        <div>Alberta, Canada</div>
-      </span>
-      <span style="--i:2;" id="two">
-        <div>Huayna Picchu, Peru</div>
-      </span>
-      <span style="--i:3;" id="three">
-        <div>El Nido, Philippines</div>
-      </span>
-      <span style="--i:4;" id="four">
-        <div>County Clare, Ireland</div>
-      </span>
-      <span style="--i:5;" id="five">
-        <div>Kauai, Hawaii, the USA</div>
-      </span>
-      <span style="--i:6;" id="six">
-        <div>Tromsø, Norway </div>
-      </span>
-      <span style="--i:7;" id="seven">
-        <div>Uluru Northern Territory, Australia</div>
-      </span>
-      <span style="--i:8;" id="eight">
-        <div>Menabe, Madagascar</div>
-      </span>
-
-    </div>
-  </div>
-
-  <!-- <div class="container">
+    <!-- <div class="container">
       <div class="search-wrapper">
         <input
           type="text"
@@ -150,9 +187,9 @@
       <div id="result"></div>
     </div>    -->
 
-  <!-- Script -->
-  <script src="travel.js"></script>
+    <!-- Script -->
+    <script src="travel.js"></script>
 
 </body>
 
-</html>
+</html> 
