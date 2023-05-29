@@ -22,25 +22,25 @@ searchBtn.addEventListener("click", () => {
         <h2>${data[0].name.common}</h2>
         <div class="wrapper">
             <div class="data-wrapper">
-                <h4>Capital:</h4>
+                <h4 class="vorb">Capital:</h4>
                 <span>${data[0].capital[0]}</span>
             </div>
         </div>
         <div class="wrapper">
             <div class="data-wrapper">
-                <h4>Continent:</h4>
+                <h4 class="vorb">Continent:</h4>
                 <span>${data[0].continents[0]}</span>
             </div>
         </div>
          <div class="wrapper">
             <div class="data-wrapper">
-                <h4>Population:</h4>
+                <h4 class="vorb">Population:</h4>
                 <span>${data[0].population}</span>
             </div>
         </div>
         <div class="wrapper">
             <div class="data-wrapper">
-                <h4>Currency:</h4>
+                <h4 class="vorb">Currency:</h4>
                 <span>${
                   data[0].currencies[Object.keys(data[0].currencies)].name
                 } - ${Object.keys(data[0].currencies)[0]}</span>
@@ -48,7 +48,7 @@ searchBtn.addEventListener("click", () => {
         </div>
          <div class="wrapper">
             <div class="data-wrapper">
-                <h4>Common Languages:</h4>
+                <h4 class="vorb">Common Languages:</h4>
                 <span>${Object.values(data[0].languages)
                   .toString()
                   .split(",")
@@ -65,3 +65,13 @@ searchBtn.addEventListener("click", () => {
       }
     });
 });
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("broo").style.top = "0";
+  } else {
+    document.getElementById("broo").style.top = "-140px";
+  }
+  prevScrollpos = currentScrollPos;
+}
